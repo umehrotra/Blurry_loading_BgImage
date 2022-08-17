@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url('image2.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+    font-size: 50px;
+    color: white;
+}
